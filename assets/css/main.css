@@ -1,0 +1,598 @@
+/*-----------------------------------------------------
+Table of Contents
+
+1. General Styles
+2. Blocks & Pages
+	# About
+	# Blog List
+	# Blog Post
+	# Contact
+	# CTA
+	# Featured Works
+	# Footer
+	# Hero
+	# Navigation
+	# Portfolio
+	# Single Project
+------------------------------------------------------*/
+
+/*-----------------------------------------------------
+1. General Styles
+------------------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body {
+	font-family: 'Roboto','Noto Sans JP',sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+
+a {
+	transition: all .2s ease-in-out;
+}
+
+p{
+	font-family: 'Noto Sans JP',sans-serif;
+	font-weight: 300;
+	font-size: 1.3rem;
+	line-height: 1.7;
+}
+
+.soy{
+	background-color: #EAEADC;
+}
+
+.btn {
+	display: inline-block;
+	font-family: Montserrat, sans-serif;
+	font-size: .75rem;
+	font-weight: 600;
+	height: 55px;
+	letter-spacing: 2.5px;
+	line-height: 55px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 220px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.container2 {
+	margin: auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.img-cover  {
+    height: 100%;
+    width: 100%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* =============== # Blog List =============== */
+
+.gallery {
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+
+.gallery .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery .gallery-item .ph-thumnail {
+	width: 100%;
+	height: 100%;
+}
+
+.gallery .gallery-item {
+	height: 100%;
+	margin: 0 0 20px 0;
+}
+
+
+.entry-category {
+	display: block;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: .4px;
+	text-transform: capitalize;
+}
+
+.gallery .entry-category {
+	margin: 22px 0 6px 0;
+}
+
+.gallery .entry-title {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-transform: capitalize;
+}
+
+/* =============== # Featured Works =============== */
+
+.photo .item {
+	width: 100%;
+}
+
+
+.photo .item-img {
+	height: 100%;
+	width: 100%;
+}
+
+.photo .item-title {
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0px 0 0px 50px;
+}
+
+.photo .item-category {
+	font-size: .6875rem;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+.blk01{
+	max-width: 2000px;
+	padding: 50px 50px 70px 50px;
+	background-color: #F6F6F6;
+}
+
+.blk01 .item{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.blk01 .item .hero{
+	padding: 0px;
+}
+
+.blk01 .item .hero2{
+	padding: 0px;
+}
+
+.blk01 .item-img {
+	height: 100%;
+	width: 100%;
+}
+
+.blk01 .item-box {
+	float:left; 
+	height: 100%;
+	width:50%;
+}
+
+.blk01 .item-title {
+	margin-left: 50px;
+}
+
+.blk01 .item-category {
+	font-size: .6875rem;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.blk02{
+	max-width: 2000px;
+	padding: 50px 50px 70px 50px;
+	background-color: #fef591;
+}
+
+.blk01 h2{
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.blk01 h3{
+	padding-bottom: 20px;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.blk02 h2{
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.blk02 h3{
+	padding-bottom: 20px;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+
+.blktitle1{
+	font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-left: 50px;
+} 
+
+.blk02 .item{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.blk02 .item .hero{
+	padding: 0px;
+}
+
+.blk02 .item .hero2{
+	padding: 0px;
+}
+
+.blk02 .item-box{
+	float: left;
+    height: 100%;
+    width: 50%;
+}
+.blk02 .item-img {
+	height: 100%;
+	width: 50%;
+}
+
+.blk02 .item-title {
+	margin-left: 50px;
+}
+
+.blk02 .item-category {
+	font-size: .6875rem;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.blk01 .entry-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* =============== # Footer =============== */
+
+.footer-default {
+	height: 100px;
+	line-height: 100px;
+}
+
+.footer-default-border {
+	margin-top: 10px;
+	border-top: 1px solid #202020;
+	height: 101px;
+}
+
+.footer-default .copyright {
+	margin-top: 30px;
+	text-align: center;
+	font-size: .875rem;
+	font-weight: 400;
+	letter-spacing: .4px;
+	text-transform: capitalize;
+}
+
+.footer-default .follow-us-links {
+	float: right;
+}
+
+.footer-default .follow-us-links li {
+	float: left;
+	font-size: .875rem;
+	list-style: none;
+	margin-left: 35px;
+}
+
+/* =============== # Hero =============== */
+
+.hero {
+	display:flex;
+	align-items: flex-end;
+	padding: 50px 0 0 0;
+	position: relative;
+	width: 100%;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 1.1;
+	float: left;
+}
+
+
+.hero2{
+	padding-bottom: 50px;
+}
+
+.hero2 h2{
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.hero .social-links {
+	list-style: none;
+	position: absolute;
+	right: -6px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: 100px;
+}
+
+.hero .social-links li {
+	font-size: 1.125rem;
+	letter-spacing: .4px;
+	margin-bottom: 35px;
+	writing-mode: vertical-rl;
+}
+
+.hero .social-icons{
+	display: block;
+	position: relative;
+	left:50px;
+}
+
+.hero .social-icons li {
+	float: left;
+	font-size: 2rem;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.hero3{
+    padding:  50px 0 100px 0; 
+}
+
+
+.hero3 .social-icons{
+	display: block;
+	position: relative;
+	width: 200px;             
+    margin:  0 auto; 
+}
+
+.hero3 .social-icons li {
+	float: left;
+	font-size: 2rem;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.inn-social-icons{
+	display: block;
+	position: relative;
+	padding: 20px 0 0 20px
+}
+
+.inn-social-icons li {
+	float: left;
+	font-size: 1.2rem;
+	list-style: none;
+	margin-right: 20px;
+}
+
+/* =============== # Navigation =============== */
+
+.main-header {
+	height: 100px;
+	width: 100%;
+}
+
+.logo {
+	float: left;
+	height: 40px;
+	margin-top: 36px;
+}
+
+.open-nav {
+	display: block;
+	float: right;
+	height: 100px;
+	position: relative;
+	width: 100px;
+}
+
+.open-nav i {
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 28%;
+}
+
+.open-nav i:before {
+	content: " ";
+	height: 2px;
+	position: absolute;
+	top: -9px;
+	width: 100%;
+}
+
+.open-nav i:after {
+	content: " ";
+	height: 2px;
+	position: absolute;
+	top: 9px;
+	width: 100%;
+}
+
+.close-nav {
+	float: right;
+	font-size: 1.3rem;
+	margin: 20px 40px 0 0;
+}
+
+.aside-navigation-overlay {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	bottom: 0;
+	right: 0;
+	height: 100vh;
+	width: 100vw;
+	opacity: 0;
+	transition: opacity .4s, left 0s .4s;
+	z-index: 2;
+}
+
+.aside-navigation-overlay.active {
+	left: 0;
+	opacity: 1;
+	transition: opacity .4s, left 0s;
+}
+
+.aside-navigation {
+	height: 100vh;
+	left: -100%;
+	position: absolute;
+	top: 0;
+	transition: left .8s;
+	width: 400px;
+}
+
+.aside-navigation.active {
+	left: 0;
+}
+
+.aside-navigation nav {
+	left: 50px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.aside-navigation nav ul li {
+	font-size: 1.7rem;
+	font-weight: 500;
+	list-style: none;
+	padding-bottom: 13px;
+	text-transform: capitalize;
+}
+
+.aside-navigation .social-icons {
+	bottom: 40px;
+	left: 50px;
+	position: absolute;
+}
+
+.aside-navigation .social-icons li {
+	font-size: .95rem;
+	float: left;
+	list-style: none;
+	margin-right: 27px;
+}
+
+/* =============== # Single Project =============== */
+
+.single-project .intro {
+	margin: 95px 0 110px 0;
+}
+
+.single-project .intro h1 {
+	font-size: 3.75rem;
+	font-weight: 400;
+	margin: 0 0 25px -3px;
+	text-transform: capitalize;
+}
+
+.single-project .intro ul {
+	float: left;
+	list-style: none;
+	margin-top: 7px;
+	width: 50%;
+}
+
+.single-project .intro ul li {
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: .1px;
+	margin-bottom: 8px;
+	text-transform: capitalize;
+}
+
+.single-project .intro p {
+	float: right;
+	font-size: 1.125rem;
+	font-weight: 300;
+	line-height: 1.9;
+	width: 50%;
+}
+
+.single-project .info {
+	font-size: 1.125rem;
+	font-weight: 300;
+	line-height: 1.9;
+	margin: 110px 0;
+	width: 60%;
+}
+
+.img-full {
+	height: 600px;
+	width: 100%;
+}
+
+.img-halved .item {
+	float: left;
+	height: 670px;
+	width: 48.75%;
+}
+
+.img-halved .item:nth-of-type(1) {
+	margin-right: 2.5%;
+}
+
+.next {
+	align-items: center;
+	display: flex;
+	cursor: pointer;
+	height: 500px;
+	justify-content: center;
+	width: 100%;
+}
+
+.next h2 {
+	font-size: 6.25rem;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	transition:  all .2s ease-in-out;
+}
+
